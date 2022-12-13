@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quee/dashboard.dart';
+import 'package:quee/register.dart';
 
 class RegistrarDept extends StatelessWidget {
   const RegistrarDept({Key? key}) : super(key: key);
@@ -54,7 +54,7 @@ class RegistrarDept extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const DashBoard()),
+                      MaterialPageRoute(builder: (context) => const Quee()),
                     );
                   },
                   child: Container(
@@ -92,7 +92,7 @@ class RegistrarDept extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const DashBoard()),
+                      MaterialPageRoute(builder: (context) => const Quee()),
                     );
                   },
                   child: Container(
