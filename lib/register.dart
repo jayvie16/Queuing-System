@@ -56,7 +56,7 @@ class Quee extends StatelessWidget {
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => const AccountingDept()),
+                            MaterialPageRoute(builder: (context) => const Dashboard()),
                           );
                         },
                         child: Container(
